@@ -8,5 +8,52 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
+    <android.support.design.card.MaterialCardView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:contentPadding="10dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="User name."
+                android:textSize="17sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/username_text"
+                    android:cursorVisible="true"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:layout_marginBottom="10dp"/>
 
+            <TextView
+                android:text="Host."
+                android:textSize="17sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/host_text"
+                android:cursorVisible="true"
+                android:background="@android:color/transparent"
+                android:textColor="@color/colorPrimaryDark"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </android.support.design.card.MaterialCardView>
 </RelativeLayout>

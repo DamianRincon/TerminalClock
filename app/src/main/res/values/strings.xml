@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">TerminalClock</string>
     <string name="action_settings">Settings</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="todo">TODO</string>
 </resources>
